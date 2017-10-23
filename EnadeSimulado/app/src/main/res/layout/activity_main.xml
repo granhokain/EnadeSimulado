@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="enadesimulado.studio.rafael.enadesimulado.Activity.MainActivity"
+        android:background="@drawable/back">
+
+    <include android:id="@+id/toolbar"
+             layout="@layout/toolbar"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/banner" android:layout_below="@+id/toolbar"
+            android:id="@+id/imageView3" android:contentDescription="@drawable/banner"
+            android:layout_marginBottom="300dp"
+            android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_above="@+id/bt_IniciSimu"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_marginBottom="41dp" android:id="@+id/spin_curso"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/o_que_btn"
+            android:id="@+id/bt_oqe"
+            android:contentDescription="@drawable/o_que_btn"
+            android:background="@android:color/white"
+            android:paddingStart="120dp" android:paddingEnd="100dp"
+            android:layout_above="@+id/spin_ano"
+            android:layout_centerHorizontal="true" android:layout_marginBottom="30dp"
+            android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+    <Button
+            android:text="@string/btn_iniciar_simulado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_IniciSimu"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_ano" android:layout_above="@+id/spin_curso" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

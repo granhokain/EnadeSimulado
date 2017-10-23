@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">"Enade Simulado "</string>
+    <string name="digite_seu_email">Digite seu email</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="btn_Logar">Logar</string>
+    <string name="texto_cadastre">Não tem conta ? Cadastre-se</string>
+    <string name="digite_seu_nomeCadastro">Digite seu nome</string>
+    <string name="btn_Cadastrar">Cadastrar</string>
+    <string name="teste">Vamos ver se agora vai</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_sair">Sair</string>
+    <string name="btn_iniciar_simulado">Iniciar Simulado</string>
+    <string name="A">.A</string>
+    <string name="B">.B</string>
+    <string name="C">.C</string>
+    <string name="D">.D</string>
+    <string name="E">.E</string>
+    <string name="bt_Salvar">Salvar</string>
+    <string name="bt_Proxima">Próxima</string>
+    <string name="texto_respostas">Iniciar um novo simulado</string>
+
+    <string-array name="ano">
+        <item>Escolha o ano</item>
+        <item>2014</item>
+        <item>2011</item>
+    </string-array>
+
+    <string-array name="curso">
+        <item>Escolha o curso</item>
+        <item>Ciência da Computação</item>
+        <item>Engenharia Civil</item>
+    </string-array>
+</resources>
